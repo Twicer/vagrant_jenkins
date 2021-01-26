@@ -67,6 +67,6 @@ Vagrant.configure("2") do |config|
     #   apt-get install -y apache2
   # SHELL
   config.vm.provision "shell" do |shell|
-    shell.path = "jenkins.sh"
+    shell.path = "jenkins_and_docker.sh"
   end 
 end
